@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void Bubblesort(int a[]){
+void Selectsort(int a[]){
 
     int temp = 0,pos; 
 
@@ -52,7 +52,7 @@ int main()
     printarr(arr);
     cout<<"\n\n";
 
-    Bubblesort(arr);
+    Selectsort(arr);
 
     cout<<"\nThe Sorted Array is : \n";
     printarr(arr);
